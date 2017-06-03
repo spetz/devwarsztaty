@@ -5,6 +5,7 @@
   <ItemGroup>
     <Folder Include="wwwroot\" />
     <Folder Include="Framework\" />
+    <Folder Include="Handlers\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
