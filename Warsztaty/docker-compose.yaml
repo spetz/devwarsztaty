@@ -19,7 +19,7 @@ api:
     ports:
       - '5000:5000'
 
-services:
+service:
     build: ./Warsztaty.Service
     links: rabbitmq
     ports:
