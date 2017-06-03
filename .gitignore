@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Warsztaty/Warsztaty/bin/Debug/netcoreapp1.1
+/Warsztaty/Warsztaty/obj
+/Warsztaty/Warsztaty/obj
