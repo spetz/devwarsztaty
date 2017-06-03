@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.4
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Warsztaty.API", "Warsztaty\Warsztaty.API.csproj", "{4AF9A9EE-9C01-4833-83EA-0FC12F3EF052}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Warsztaty.API", "Warsztaty\Warsztaty.API.csproj", "{4AF9A9EE-9C01-4833-83EA-0FC12F3EF052}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Warsztaty.Service", "Warsztaty.Service\Warsztaty.Service.csproj", "{E06E6932-F34A-4A34-91D3-6683708E2F78}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Warsztaty.Service", "Warsztaty.Service\Warsztaty.Service.csproj", "{E06E6932-F34A-4A34-91D3-6683708E2F78}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "warsztaty.messages", "warsztaty.messages\warsztaty.messages.csproj", "{32972FEC-255D-49AE-AC59-8206E2A048F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Warsztaty.Messages", "warsztaty.messages\Warsztaty.Messages.csproj", "{32972FEC-255D-49AE-AC59-8206E2A048F3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

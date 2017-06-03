@@ -20,6 +20,6 @@
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="1.0.1" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\warsztaty.messages\warsztaty.messages.csproj" />
+    <ProjectReference Include="..\warsztaty.messages\Warsztaty.Messages.csproj" />
   </ItemGroup>
 </Project>
