@@ -8,6 +8,7 @@ using RawRabbit.vNext;
 using warsztaty.messages.Events;
 using Warsztaty.API.Framework;
 using Warsztaty.API.Handlers;
+using Warsztaty.API.Storage;
 
 namespace Warsztaty.API
 {
@@ -31,6 +32,12 @@ namespace Warsztaty.API
             // Add framework services.
             services.AddMvc();
             ConfigureRabbitMq(services);
+            ConfigureDatabase(services);
+        }
+
+        private void ConfigureDatabase(IServiceCollection services)
+        {
+            services.AddSingleton<IStorage>(new InMemoryDb());
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
